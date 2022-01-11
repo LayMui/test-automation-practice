@@ -592,7 +592,7 @@
     which "^2.0.2"
     yargs "^16.2.0"
 
-"@serenity-js/web@^2.32.6":
+"@serenity-js/web@^3.0.0-rc.6":
   version "3.0.0-rc.6"
   resolved "https://registry.yarnpkg.com/@serenity-js/web/-/web-3.0.0-rc.6.tgz#70e91c7c2a5933935ae5bc5c70b31f4f320cfcfe"
   integrity sha512-doGtWKzw/4DqiJ6/37dXXimvig9CvcMPV2J2UDpCxIDhFourMHUk4adY0fJ22a1Y1xH6FqLVrp5JVQpTnofraw==

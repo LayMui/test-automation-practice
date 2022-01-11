@@ -38,8 +38,8 @@ export const config: WebdriverIOConfig = {
     // see: https://serenity-js.org/handbook/reporting/
     crew: [
       ArtifactArchiver.storingArtifactsAt('./target/site/serenity'),
-      Photographer.whoWill(TakePhotosOfFailures),
-      // Photographer.whoWill(TakePhotosOfInteractions),
+      //Photographer.whoWill(TakePhotosOfFailures),
+      Photographer.whoWill(TakePhotosOfInteractions),
       ConsoleReporter.forDarkTerminals(),
       new SerenityBDDReporter(),
     ],

@@ -34,6 +34,7 @@
     "@serenity-js/rest": "^2.32.6",
     "@serenity-js/serenity-bdd": "^2.32.6",
     "@serenity-js/webdriverio": "^2.32.6",
+    "@serenity-js/web": "^2.32.6",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
     "@wdio/cli": "^7.11.1",
@@ -55,9 +56,6 @@
     "ts-node": "^10.2.1",
     "typescript": "^4.4.2",
     "wdio-chromedriver-service": "^7.2.0"
-  },
-  "dependencies": {
-    "@serenity-js/protractor": "^3.0.0-rc.4",
-    "@serenity-js/web": "^3.0.0-rc.4"
   }
+  
 }

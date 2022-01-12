@@ -10,12 +10,3 @@ import { BrowseTheWebWithWebdriverIO } from '@serenity-js/webdriverio
 instead of BrowseTheWeb
 ```
 
-
-TypeError in "Able to create an account"
-[test:test:execute] TypeError: Cannot read properties of undefined (reading 'to')
-
-
-
- ✗ TypeError: Cannot read properties of undefined (reading 'the')
-
-

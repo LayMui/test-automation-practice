@@ -1,12 +1,8 @@
-import { by, Target } from "@serenity-js/webdriverio";
+import { By, PageElement } from '@serenity-js/web'
 
- 
- 
 export const accountPage = {
-  emailInput: () => Target.the('email field').located(by.xpath('//input[@id=\'user[email]\']')),
+  emailInput: () =>
+    PageElement.located(By.xpath("//input[@id='user[email]']")).describedAs(
+      'email field'
+    ),
 }
-
-
- 
- 
- 

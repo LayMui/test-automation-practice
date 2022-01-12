@@ -1,5 +1,6 @@
 import { Duration, Task } from '@serenity-js/core'
-import { Clear, Click, Enter, isVisible, Key, Press, Wait} from '@serenity-js/webdriverio'
+import { Click, Enter, isVisible, Wait } from '@serenity-js/web'
+
 import { accountPage } from '../page-objects/accountPage'
 import { homePage } from '../page-objects/homePage'
 
